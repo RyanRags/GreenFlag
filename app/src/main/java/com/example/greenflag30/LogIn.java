@@ -9,6 +9,7 @@ import android.util.Patterns;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;
@@ -17,7 +18,7 @@ import java.util.regex.Pattern;
 
 public class LogIn extends AppCompatActivity {
 
-    private Button backBtn;
+    private ImageView backBtn;
     private EditText email;
     private ConstraintLayout invalidEmail;
     private EditText createPW;
@@ -46,6 +47,7 @@ public class LogIn extends AppCompatActivity {
         createPW = findViewById(R.id.et_password1);
         samePW = findViewById(R.id.constraintLayout1);
         changeError = findViewById(R.id.editTextTextMultiLine);
+        backBtn = findViewById(R.id.imageView2);
 
         ArrayList<String> emails = new ArrayList<>();
 

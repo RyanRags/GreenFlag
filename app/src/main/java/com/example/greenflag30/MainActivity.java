@@ -19,7 +19,6 @@ public class MainActivity extends AppCompatActivity {
 
         logIn.setOnClickListener(view -> {
 
-
             Intent logIn = new Intent();
             logIn.setClass(MainActivity.this, LogIn.class );
             startActivity(logIn);

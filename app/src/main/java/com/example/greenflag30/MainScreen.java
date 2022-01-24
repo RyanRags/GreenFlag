@@ -17,6 +17,7 @@ public class MainScreen extends AppCompatActivity {
     private ArrayAdapter<String> adapter;
     private ListView lw;
     private ImageView backbtn;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,6 +34,4 @@ public class MainScreen extends AppCompatActivity {
             finish();
         });
     }
-
-
 }
